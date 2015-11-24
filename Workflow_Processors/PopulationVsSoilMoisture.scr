@@ -15,7 +15,7 @@ echo 'Matching the the TerraPop Output with the VIC Model output .....'
 python ./cmd/TerraPopCountieswzVicOutput.py
 
 
-echo 'averaging the deep soil moisture over counties, and plotting the population Vs deep soil moisture .....'
+echo 'Population per county versus the Average deep soil moisture percent for the counties in a sub catchment in the State of South Carolina. .....'
 python ./cmd/creating_Visualization.py
 
 
